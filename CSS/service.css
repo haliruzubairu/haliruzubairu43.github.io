@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contain {
+    width: 1200px;
+    height: auto;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contain .square {
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.contain .square:nth-child(1) {
+    background: rgb(255, 255, 255);
+}
+.contain .square:nth-child(2) {
+    background: cornflowerblue;
+}

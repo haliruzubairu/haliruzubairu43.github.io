@@ -1,0 +1,242 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height:1.8;
+}
+
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:focus{
+    outline:none;
+    text-decoration: none;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+.section-header{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-header h2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+}
+.black h2{
+    color: black;
+}
+.line-one {
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 225, 255);
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.line-two {
+    height: 1.5px;
+    width: 150px;
+    background: rgb(0, 225, 255);
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.line-two2 {
+    height: 1.8px;
+    width: 150px;
+    background: rgb(0, 225, 255);
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---Default css ends---*/
+
+/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #ffffff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		border: 4px solid crimson ;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		border: 4px solid skyblue;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		border: 4px solid teal;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid crimson;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid skyblue;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid teal;
+		border-left-color: transparent;
+	}
+}
+
+.color {
+  background: rgb(255, 255, 255);
+}
+/*---------- 4. Nav area css starts -------------*/
+
+.nav-area{
+  height: 75px;
+  background-color: teal;
+}
+.navbar-nav {
+  margin-top: 15px;
+}
+
+
+.main-menu{
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  margin-top: 10px;
+}
+
+.navbar{
+  border:0;
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  text-transform: capitalize;
+  font-size: 25px;
+  display: block;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.logo {
+  font-family: lato;
+  padding: 5px;
+  font-size: 28.70px;
+  letter-spacing: 3.78px;
+}
+.logo:hover {
+  color: rgb(129, 224, 129);
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-right li{
+  display: inline-block;
+  float: none;
+}
+
+.navbar-right li a{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-right li.active a{
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus{
+  background: none;
+}
+
+.navbar-toggle .icon-bar{
+  background: rgb(255, 255, 255);
+}
+ul li:hover {
+  color: lightgreen;
+}
+
+/*---------- Nav area css ends -------------*/
+
+/*---------------Card Section Start-------------------*/
+.card-section {
+  margin-top: 100px;
+}
+
+/*--------------13. Footer area starts -------------*/
+
+.footer-area {
+  background: teal;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+/*--------------- Footer area ends -------------*/
