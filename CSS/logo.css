@@ -186,9 +186,6 @@ img {
   font-size: 28.70px;
   letter-spacing: 3.78px;
 }
-.logo:hover {
-  color: rgb(129, 224, 129);
-}
 
 .navbar-brand:focus, .navbar-brand:hover {
   text-decoration: none;
@@ -225,6 +222,25 @@ ul li:hover {
 }
 
 /*---------- Nav area css ends -------------*/
+
+#update {
+  font-size: 50%;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 500;
+  color: black;
+}
+.details {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  font-size: 100px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 500;
+  color: black;
+
+}
 
 /*---------------Card Section Start-------------------*/
 .card-section {
